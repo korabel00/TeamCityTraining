@@ -58,7 +58,7 @@ public class Calculator {
     }
 
     public double cos(double a) {
-        return Math.sin(a);
+        return Math.cos(a);
     }
 
     public double sin(double a) {
