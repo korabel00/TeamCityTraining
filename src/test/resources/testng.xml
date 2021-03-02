@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite" parallel="methods" thread-count="2">
+
+    <groups>
+        <run>
+            <include name="unitTests1"/>
+        </run>
+    </groups>
+
+    <test name="Substraction">
+        <classes>
+            <class name="calculator_test.SubTest"/>
+        </classes>
+    </test>
+    <test name="Sum">
+        <classes>
+            <class name="calculator_test.SumTest"/>
+        </classes>
+    </test>
+    <test name="Div">
+        <classes>
+            <class name="calculator_test.DivisionTest"/>
+        </classes>
+    </test>
+    <test name="Mult">
+        <classes>
+            <class name="calculator_test.MultTest"/>
+        </classes>
+    </test>
+    <test name="IsPositive">
+        <classes>
+            <class name="calculator_test.IsPositiveTest"/>
+        </classes>
+    </test>
+    <test name="IsNegative">
+        <classes>
+            <class name="calculator_test.IsNegativeTest"/>
+        </classes>
+    </test>
+    <test name="Cosine">
+        <classes>
+            <class name="calculator_test.CosineTest"/>
+        </classes>
+    </test>
+    <test name="Sinus">
+        <classes>
+            <class name="calculator_test.SinusTest"/>
+        </classes>
+    </test>
+    <test name="Tang">
+        <classes>
+            <class name="calculator_test.TangTest"/>
+        </classes>
+    </test>
+    <test name="Cotang">
+        <classes>
+            <class name="calculator_test.CotangTest"/>
+        </classes>
+    </test>
+    <test name="Sqrt">
+        <classes>
+            <class name="calculator_test.SqrtTest"/>
+        </classes>
+    </test>
+    <test name="Pow">
+        <classes>
+            <class name="calculator_test.PowTest"/>
+        </classes>
+    </test>
+</suite>
