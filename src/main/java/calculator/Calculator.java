@@ -54,7 +54,7 @@ public class Calculator {
     }
 
     public double ctg(double a) {
-        return Math.tanh(a);
+        return this.cos(a) / this.sin(a);
     }
 
     public double cos(double a) {
