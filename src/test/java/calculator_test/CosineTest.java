@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class CosineTest extends BaseTest {
 
     @Test(dataProvider = "valuesForCosineTest", groups = {"unitTests1"})
-    public void cosineTest(long a, double expectedValue) {
+    public void cosineTest(double a, double expectedValue) {
         double result = calculator.cos(a);
         Assert.assertEquals(result, expectedValue, "Invalid cosine");
     }
