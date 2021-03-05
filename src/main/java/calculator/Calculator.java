@@ -31,7 +31,7 @@ public class Calculator {
 
     public long div(long a, long b) {
         if (b == 0L) {
-            throw new NumberFormatException("Attempt to divide by zero - not good");
+            throw new NumberFormatException("Attempt to divide by zero");
         } else {
             return a / b;
         }
