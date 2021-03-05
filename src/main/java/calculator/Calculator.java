@@ -38,7 +38,11 @@ public class Calculator {
     }
 
     public double div(double a, double b) {
-        return a / b;
+        if (b == 0.0) {
+            throw new NumberFormatException("Attempt to divide by zero");
+        } else {
+            return a / b;
+        }
     }
 
     public double pow(double a, double b) {
