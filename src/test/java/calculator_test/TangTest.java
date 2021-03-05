@@ -15,10 +15,10 @@ public class TangTest extends BaseTest {
     @DataProvider(name = "valuesForTangTest")
     public Object[][] values() {
         return new Object[][]{
-                {30, -6.405331196646276},
+                {30, -6.4053311966462765},
                 {90, -1.995200412208242},
                 {180, 1.3386902103511544},
-                {360, -3.380140413960958},
+                {360, -3.3801404139609583},
         };
     }
 }
