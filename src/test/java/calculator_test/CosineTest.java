@@ -16,7 +16,7 @@ public class CosineTest extends BaseTest {
     public Object[][] values() {
         return new Object[][]{
                 {60, -0.9524129804151563},
-                {90, -0.4480736161291702},
+                {90, -0.4480736161291701},
                 {120, 0.8141809705265618},
                 {360, -0.2836910914865273},
         };
