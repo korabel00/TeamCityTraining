@@ -53,20 +53,20 @@ public class Calculator {
         return Math.sqrt(Math.abs(a));
     }
 
-    public double tg(double a) {
+    public float tg(float a) {
         return this.sin(a) / this.cos(a);
     }
 
-    public double ctg(double a) {
+    public float ctg(float a) {
         return this.cos(a) / this.sin(a);
     }
 
-    public double cos(double a) {
-        return Math.cos(a);
+    public float cos(float a) {
+        return (float) Math.cos(a);
     }
 
-    public double sin(double a) {
-        return Math.sin(a);
+    public float sin(float a) {
+        return (float) Math.sin(a);
     }
 
     public boolean isPositive(long val) {
