@@ -12,7 +12,6 @@ public class SinusTest extends BaseTest {
         Assert.assertEquals(result, expectedValue, "Invalid sinus value");
     }
 
-
     @DataProvider(name = "valuesForSinusTest")
     public Object[][] values() {
         return new Object[][]{
