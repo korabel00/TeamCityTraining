@@ -1,0 +1,1 @@
+This file is created to show ability of Teamcity to check pull requests
