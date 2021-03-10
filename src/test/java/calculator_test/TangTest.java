@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class TangTest extends BaseTest {
 
     @Test(dataProvider = "valuesForTangTest", groups = {"unitTests1"})
-    public void tangTest(long a, double expectedValue) {
-        double result = calculator.tg(a);
+    public void tangTest(float a, double expectedValue) {
+        float result = calculator.tg(a);
         Assert.assertEquals(result, expectedValue, "Invalid tang value");
     }
 

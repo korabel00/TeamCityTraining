@@ -38,7 +38,7 @@ public class Calculator {
     }
 
     public double div(double a, double b) {
-        if (b == 0) {
+        if (b == 0.0) {
             throw new NumberFormatException("Attempt to divide by zero");
         } else {
             return a / b;
@@ -58,7 +58,7 @@ public class Calculator {
     }
 
     public float ctg(float a) {
-        return (float) Math.tanh(a);
+        return this.cos(a) / this.sin(a);
     }
 
     public float cos(float a) {
